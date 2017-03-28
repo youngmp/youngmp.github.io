@@ -165,7 +165,7 @@ var mainFunction =
 
 		});
 
-		function onMouseHide(){ $("body").css("cursor", "none"); }
+		function onMouseHide(){ $("body").css("cursor", "inherit"); }
 
 		function onMouseShow(){ $("body").css("cursor", "inherit"); }
 

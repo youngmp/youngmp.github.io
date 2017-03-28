@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html >
 <head>
-  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
   <title>Youngmin Park</title>
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+
+      <link rel="stylesheet" href="css/style_video.css">
 
   
   <link rel="stylesheet" href="css/style.css">
@@ -19,7 +23,9 @@
 <!--<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>-->
   <script type="text/javascript" src="MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
+<script src='js/jquery.min.js'></script>
 
+    <script src="js/video.js"></script>
   
 </head>
 
@@ -30,6 +36,49 @@
     <h3>PhD Candidate University of Pittsburgh</h3>
     <h3>Andrew Mellon Predoctoral Research Fellow</h3>
     <h3>Advisor: Bard Ermentrout</h3>
+    
+    <center>
+      <div class="container">
+			
+				<div class="video-container">
+					
+					<video id="media-video">
+			            <source src="weak_coupling_ex1.mp4" type="video/mp4">
+			         </video>
+
+				</div>
+
+				<div class="player-container">
+					<!-- <div class="play-control">
+						<div class="play-button"><i class="fa fa-play"></i></div>
+						<div class="pause-button"><i class="fa fa-pause"></i></div>
+					</div>
+
+					<div class="volume-control">
+						<div class="volume-button"><i class="fa fa-volume-up"></i></div>
+						<div class="volume-button-mute"><i class="fa fa-volume-off"></i></div>
+					</div>
+
+					<div class="indicator">0:00 / 0:00</div> -->
+					<!-- <div class="progress">
+						<div class="progress-background"></div>
+						<div class="progress-over"></div>
+						<div class="progress-hidden"></div>
+
+					</div>
+
+					<div class="fullscreen-button"><i class="fa fa-arrows-alt"></i></div> -->
+				</div>
+
+			<div class="container-inner"></div>
+
+		</div>
+
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/main.js"></script>
+    </center>
+    
+    
     <div class="et-hero-tabs-container">
       <a class="et-hero-tab" href="#tab-home">Bio</a>
       <a class="et-hero-tab" href="#tab-research">Research/CV</a>
