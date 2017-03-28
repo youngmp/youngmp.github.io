@@ -21,6 +21,8 @@ a:active {
 color: gray;
 }
 
+a {  text-decoration:none;}
+
 .et-hero-tabs,
 .et-slide {
   display: -webkit-box;
