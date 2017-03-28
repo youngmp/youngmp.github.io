@@ -1,0 +1,243 @@
+
+<head>
+<title>
+Youngmin Park
+</title>
+<link rel="stylesheet" type="text/css" href="http://pitt.edu/~yop6/style.css">
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+<link rel="icon" type="image/png" href="http://pitt.edu/~yop6/myfavicon.ico">
+</head>
+
+<body>
+<!-- BEGIN ANALYTICS -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50873775-1', 'pitt.edu');
+  ga('send', 'pageview');
+
+</script>
+<!-- END ANALYTICS -->
+
+<!-- BEGIN MENU -->
+<div id='cssmenu'>
+<script>$("#cssmenu").load("../menu.htm");</script>
+</div>
+<!-- END MENU -->
+
+<!-- BEGIN MAIN -->
+<div id="main">
+
+<!-- BEGIN SUBMAIN -->
+<div id="submain">
+
+<center><h3>MATH 0290 Differential Equations</h3><br />
+12-week Summer session, 2014</center>
+<br />
+<center>
+<table >
+<tr >
+<td>Location:</td> <td>Benedum 1020</td>
+</tr>
+
+<tr>
+<td>Hours:</td> <td>9:45am-10:45am</td>
+</tr>
+
+<tr>
+<td>Days:</td> <td>Mon Wed Fri</td>
+</tr>
+<tr>
+<td>MAC:</td> <td>Friday 12-1pm, 4-5pm</td>
+</tr>
+</table>
+
+<b><a href="./syllabus0290-summer-2014.pdf">Syllabus</a></b><br /><br />
+<!--<font color='red'><b>Note: I have moved all homework solutions to courseweb</b></font>-->
+</center>
+
+<br />
+
+<table border=1 width=100%>
+<tr>
+<td><b>HW #</b></td><td><b>Problems</b></td><td><b>Due</b></td>
+</tr>
+<tr>
+<td>1</td><td>
+<div id="sectiontitle">First order equations, modeling and applications</div>
+Section 2.1: 12, 17<br />
+Section 2.2: 8-11, 15-18, 23, 24, 33<br />
+Section 2.3: 1, 2, 3, 4 <br />
+Section 2.4: 1-5, 14, 15, 36-39<br />
+Section 3.1: 6, 10, 11(a)<br />
+Section 3.3: 6<br />
+<strike>Section 3.4: 4, 12, 21</strike>
+
+
+</td><td>Friday 23 May</td>
+
+</tr>
+
+<tr>
+<td>2</td><td>
+<div id="sectiontitle">First- and Second-order equations, modeling</div>
+Section 3.4: 4, 12, 21<br />
+Section 2.9: 26, 27, 28<br />
+Section 4.1: 7, 9<br />
+Section 4.3: 1, 10, 18
+</td>
+<td>Friday 30 May</td>
+</tr>
+<tr>
+<td>3</td><td>
+<div id="sectiontitle">Second-order equations</div>
+<strike>Section 4.4: 20(a)</strike><br />
+Section 4.5: 1, 2, 18-21 <br />
+<!--Problems for review (not for credit):<br />
+Section 2.4: 16-19 (find solutions only)<br />
+Section 2.9: 21, 22 (use theorem 9.8)
+Section 4.3: 5, 7, 13, 15, 21, 23-->
+</td>
+<td>Wednesday 4 June</td>
+</tr>
+
+<tr>
+<td>-</td><td>
+<div id="sectiontitle">Midterm 1</div>
+<br />
+</td><td>Friday 6 June</td>
+</tr>
+
+<tr>
+<td>4</td><td>
+<div id="sectiontitle">Second-order equations, Laplace transform</div>
+Section 4.4: 7, 11, 13, 20(a)<br />
+Section 4.7: 9, <strike>12, 31</strike><br />
+Section 5.1: 5, 8, 25, 29
+</td><td>Friday 13 June</td>
+</tr>
+
+<tr>
+<td>5</td><td>
+<div id="sectiontitle">Laplace transform</div>
+Section 5.2: 6, 7 (cosh only, where $\cosh(x) = (e^x + e^{-x})/2$), 35<br />
+Section 5.3: 11, 19<br />
+Section 5.4: 1, 19, 21
+</td><td>Friday 20 June</td>
+</tr>
+
+<tr>
+<td>6</td><td>
+<div id="sectiontitle">Laplace transform, numerical methods, matrix algebra</div>
+Section 5.5: 6, 10, 27<br />
+Section 5.6: 3, 5<br />
+Section 6.1: 4 <br />
+Section 7.1: 18, 21, 51, 52
+</td><td>Friday 27 June</td>
+</tr>
+
+<tr>
+<td>7</td><td>
+<div id="sectiontitle">Intro to systems</div>
+Section 8.1: 3, 8, 11<br />
+Section 8.2: 1 (I will provide wolfram alpha syntax), 21<br />
+Section 8.3: (solve all problems by hand) 4, 11ab, 12a<br />
+Section 8.4: 1, 7, 11, 13, 25
+</td><td>Wednesday 2 July</td>
+</tr>
+
+<tr>
+<td>-</td><td>No class; Independence Day</td><td>Friday 4 July</td>
+</tr>
+
+<tr>
+<td>8</td><td>
+<div id="sectiontitle">Linear systems</div>
+Section 9.1: 1, 16, 17<br />
+Section 9.2: 1, 7, 17<br />
+Section 9.3: <strike>16</strike>, 20<br />
+</td><td>Wednesday 9 July</td>
+</tr>
+
+<tr>
+<td>-</td><td>
+<div id="sectiontitle">Midterm 2</div><br />
+</td><td>Friday 11 July</td>
+</tr>
+
+<tr>
+<td>9</td><td>
+<div id="sectiontitle">Linear and nonlinear systems</div>
+Section 9.3: 16<br />
+<strike>Section 9.6: 1,2</strike><br />
+Section 10.1: 1,2,19bc<br />
+Section 10.2: 1,16<br />
+Section 10.5: 1,<strike>22</strike>, 21<br />
+
+</td><td>Friday 18 July</td>
+</tr>
+
+<tr>
+<td>10</td><td>
+<div id="sectiontitle"><div id="currentsection">Fourier series and partial differential equations</div></div>
+Section 12.1: 2,3<br />
+Section 12.3: 1,3,10<br />
+Section 13.1: 1,2 <br />
+</td><td>Wednesday 23 July</td>
+</tr>
+
+<tr>
+<td>-</td><td>
+No class
+
+
+</td><td>Friday 25 July</td>
+</tr>
+
+<tr>
+<td>11</td><td>
+<div id="sectiontitle">Special topics</div>
+Extra credit:<br />
+Section 9.6: 1,2<br />
+Section 10.4: 7<br />
+Section 10.8: 1<br />
+Section 13.1: 5
+</td><td>Wednesday 30 July</td>
+</tr>
+
+
+<tr>
+<td>-</td><td>
+<div id="sectiontitle">Final</div><br />
+
+</td><td>Friday 1 August</td>
+</tr>
+
+</table>
+
+
+
+</div>
+<!-- END SUB MAIN -->
+
+</div>
+<!-- END MAIN BODY -->
+
+
+
+
+
+
+
+</body>

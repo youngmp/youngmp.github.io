@@ -1,0 +1,241 @@
+p {
+	font-size:10pt;
+}
+
+body {
+	background-color:#F9F9F9 /* #E0E0E0; */ /*black;#F8F8F8;*/
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+list-style-type: circle;
+}
+
+table {
+    border-collapse: collapse;
+	border-color: gray;
+}
+
+
+html {
+    padding: 0;
+    margin: 0;
+   /*background: url('retina_wood2x.jpg') no-repeat center center fixed; */
+   /*background: url('retina_wood2x.jpg'); */
+   background: url('retina_wood2x.jpg'); 
+   background-repeat:repeat-y;
+   background-attachment:fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h2,h3 {
+margin:0px;
+font-family: 'Times new roman';
+/* text-decoration: underline; */
+}
+
+/* unvisited link */
+a:link {
+color: #0d8ba1;
+}
+
+/* visited link */
+a:visited {
+color: #1a5952;
+}
+
+/* mouse over link */
+a:hover {
+color: black;
+}
+
+/* selected link */
+a:active {
+color: gray;
+}
+
+
+#main {
+	/* font-family:'Libre Baskerville', 'sans-serif', 'Lucida Sans Unicode', 'Bitstream Vera Sans', 'Trebuchet Unicode MS', 'Lucida Grande', Verdana, Helvetica, sans-serif; */
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif, 'arial';
+	/* font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif; */
+	/* background-color:#E9E9E9; */
+	/* border: 1px black;*/
+	/* z-index:0px; */
+	width:870px;
+	/* height: 100%; */ 
+	/* padding: 5px; */
+	/* border:1px solid black; */
+	margin-left: auto;
+	margin-right: auto;
+	background-size: cover;
+
+
+	/* background-color: ffffff;
+	opacity: 0.6;
+	/*filter: alpha(opacity=60);*/
+	padding: 5px; */
+
+
+}
+
+#submain {
+	 /* border-left: 1px black dashed; */
+	/* border-right: 1px black dashed; */
+	/* border: 1px #333333 solid; */
+	/* background-size: cover; */
+
+	background: rgb(255, 255, 255); /* Fall-back for browsers that don't
+                                    support rgba */
+	background: rgba(255, 255, 255, .6);
+
+	padding: 5px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+}
+
+
+#cssmenu {
+  border: none;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  font: 67.5% 'Lucida Sans Unicode', 'Bitstream Vera Sans', 'Trebuchet Unicode MS', 'Lucida Grande', Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  /*font-weight: bold;*/
+  width: auto;
+}
+#cssmenu ul {
+  background: #333333;
+  height: 35px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#cssmenu li {
+  float: left;
+  padding: 0px;
+}
+#cssmenu li a {
+  background: #333333 url('http://img.photobucket.com/albums/v471/psy_y/seperator.gif') bottom right no-repeat;
+  display: block;
+  font-weight: normal;
+  line-height: 35px;
+  margin: 0px;
+  padding: 0px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+#cssmenu > ul > li > a {
+  /* color: #cccccc; */
+  color: #ddd;
+}
+#cssmenu ul ul a {
+  /* color: #cccccc;*/
+  color: #ddd;
+}
+#cssmenu li > a:hover,
+
+#cssmenu ul li:hover > a {
+  background: #727272; /* #2580a2 */ /* url('http://img.photobucket.com/albums/v471/psy_y/hover.png') bottom center no-repeat */; 
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+#cssmenu li ul {
+  background: #333333;
+  display: none;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  position: absolute;
+  width: 225px;
+  z-index: 200;
+  /*top:1em;
+  /*left:0;*/
+
+}
+#cssmenu li:hover ul {
+  display: block;
+}
+#cssmenu li li {
+  background: url('http://img.photobucket.com/albums/v471/psy_y/sub_sep.gif') bottom left no-repeat;
+  display: block;
+  float: none;
+  margin: 0px;
+  padding: 0px;
+  width: 225px;
+}
+#cssmenu li:hover li a {
+  background: none;
+}
+#cssmenu li ul a {
+  display: block;
+  height: 35px;
+  font-size: 14px;
+  font-style: normal;
+  margin: 0px;
+  padding: 0px 10px 0px 15px;
+  text-align: left;
+}
+#cssmenu li ul a:hover,
+
+
+#cssmenu li ul li:hover > a {
+  background: #2580a2 /* url('http://img.photobucket.com/albums/v471/psy_y/hover_sub.png') center left no-repeat;*/
+  border: 0px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#cssmenu p {
+  clear: left;
+	z-index:0;
+}
+
+#figure1 {
+	width:489px;
+	height:214px;
+}
+
+#figure2 {
+	width:290px;
+	height:214px;
+
+}
+
+
+
+#gallery {
+	text-align:center;
+	height: 100%;
+	width: 860px;
+
+
+}
+
+#sectiontitle{
+	background: rgb(255, 255, 255); /* Fall-back for browsers that don'tsupport rgba */
+	background: rgba(255, 255, 255, .7);
+	border-bottom: 1px dashed gray;
+}
+
+#currentsection {
+	background: rgb(0, 255, 0); /* Fall-back for browsers that don't support rgba */
+	background: rgba(0, 255, 0, .2);
+}
+
+/* popup CSS */
+
+
+/* easter egg block */
+#hidden {
+	position:absolute;
+	top:-20px;
+	height:20px;
+	z-index:30;
+}

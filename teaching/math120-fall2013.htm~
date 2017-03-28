@@ -1,0 +1,42 @@
+<head>
+<title>
+Youngmin Park
+</title>
+<link rel="stylesheet" type="text/css" href="../style.css">
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+
+<body>
+
+
+<div id="main">
+
+
+<!-- BEGIN MENU -->
+<div id='cssmenu'>
+<script>$("#cssmenu").load("../menu.htm");</script>
+</div>
+<!-- END MENU -->
+
+
+<!-- BEGIN SUBMAIN -->
+<div id="submain">
+
+
+Please see the <a href="http://calculus.math.pitt.edu/">Calc page</a> for more information.
+
+
+</div>
+<!-- END SUB MAIN -->
+
+
+
+</div>
+<!-- END MAIN BODY -->
+
+
+
+
+
+
+</body>
