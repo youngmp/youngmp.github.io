@@ -116,24 +116,24 @@
 
         <li><a href='https://github.com/youngmp/hobby_coding/blob/master/research_tools/euler.py'><b>Forward Euler method</b></a> (Python + numpy): numerically integrate ordinary differential equations (ODE) of the form<br /><br />
 
-        <center>$\frac{dx}{dt} = f(x,t)$,</center><br />
+        <center>$$\frac{dx}{dt} = f(x,t)$$,</center><br />
 
-        where $f: \mathbb{R}^n \times \mathbb{R} \rightarrow \mathbb{R}^n$ and $x: \mathbb{R} \rightarrow \mathbb{R}^n$.
+        where $$f: \mathbb{R}^n \times \mathbb{R} \rightarrow \mathbb{R}^n$$ and $$x: \mathbb{R} \rightarrow \mathbb{R}^n$$.
 
         </li>
         <li><a href="https://github.com/youngmp/hobby_coding/blob/master/research_tools/langevin_1D.py"><b>Langevin equation solver</b></a> (Python + numpy): numerically integrate scalar stochastic differential equations (SDE) of the form<br /><br />
 
-        <center>$dX = A(X,t)dt + B(X,t) dW(t)$,</center><br />
+        <center>$$dX = A(X,t)dt + B(X,t) dW(t)$$,</center><br />
 
-        where $A,B:\mathbb{R} \times \mathbb{R} \rightarrow \mathbb{R}$. The code uses the numerical scheme,<br /><br />
+        where $$A,B:\mathbb{R} \times \mathbb{R} \rightarrow \mathbb{R}$$. The code uses the numerical scheme,<br /><br />
 
-        <center>$X(n+1) = X(n) + h A(X(n),t_n) + B(X(n),t_n) \sqrt{h} \hat N(0,1)$,</center><br />
+        <center>$$X(n+1) = X(n) + h A(X(n),t_n) + B(X(n),t_n) \sqrt{h} \hat N(0,1)$$,</center><br />
 
         (Ermentrout and Terman 2010) and also solves integrate-and-fire type models. This code has no UI and depends on numpy and matplotlib.</li>
         <br />
         <li><a href="https://github.com/youngmp/hobby_coding/blob/master/pygame/conway.py"><b>Conway's game of life</b></a> (Python + pygame,numpy). Click and drag to add initial conditions, then press the green rectangle to start. Click the yellow rectangle to pause. Color scheme inspired by my advisor: white = current, red = state at previous generation, green = state at generation before that, blue = state at generation before that.</li>
         <br />
-        <li><a href="https://github.com/youngmp/hobby_coding/blob/master/research_tools/fourier_approx.py"><b>Fourier Approximation</b></a> (Python + numpy,scipy). Define/load data. The routine will determine the largest $n$ coefficients and its corresponding frequencies. I'll later add the option to compute the Fourier series to some $x\%$ accuracy.
+        <li><a href="https://github.com/youngmp/hobby_coding/blob/master/research_tools/fourier_approx.py"><b>Fourier Approximation</b></a> (Python + numpy,scipy). Define/load data. The routine will determine the largest $n$ coefficients and its corresponding frequencies.
         </li>
         </ul>
       </div>
