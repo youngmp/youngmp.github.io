@@ -1,9 +1,24 @@
 body {
   font-family: "Century Gothic", 'Lato', sans-serif;
 }
+/* unvisited link */
+a:link {
+color: #0d8ba1;
+}
 
-a {
-  text-decoration: none;
+/* visited link */
+a:visited {
+color: #1a5952;
+}
+
+/* mouse over link */
+a:hover {
+color: black;
+}
+
+/* selected link */
+a:active {
+color: gray;
 }
 
 .et-hero-tabs,
