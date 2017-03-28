@@ -41,7 +41,11 @@ color: gray;
   background: #eee;
   text-align: center;
   padding: 0 2em;
+  
 }
+
+.et-hero-tabs a {  text-decoration:none;}
+
 .et-hero-tabs h1,
 .et-slide h1 {
   font-size: 2rem;
