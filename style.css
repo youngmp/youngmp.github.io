@@ -92,7 +92,7 @@ color: gray;
                                     support rgba */
 	background: rgba(255, 255, 255, .6);
 
-	padding: 5px;
+	padding: 20px;
 	-moz-border-radius: 7px;
 	border-radius: 7px;
 }
