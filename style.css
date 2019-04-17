@@ -26,6 +26,10 @@ p {
 	padding: 5px; */
 		width: 360px;
 	}
+	
+	#gallery {
+		width: 360px;
+	}
 }
 
 @media screen and (min-width:361px) and (max-width:640px) {
@@ -50,6 +54,10 @@ p {
 	opacity: 0.6;
 	/*filter: alpha(opacity=60);*/
 	padding: 5px; */
+		width: 360px;
+	}
+	
+	#gallery {
 		width: 360px;
 	}
 }
