@@ -4,9 +4,13 @@ p {
 
 @media screen and (max-width:360px) {
   /* CSS for screens that are 320 pixels or less will be put in this section */
+	
+	#main {
+		width: 360px;
+	}
 }
 
-@media screen and (min-width:360px) and (max-width:640px) {
+@media screen and (min-width:361px) and (max-width:640px) {
   /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
 }
 
