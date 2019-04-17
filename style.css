@@ -2,65 +2,6 @@ p {
 	font-size:12pt;
 }
 
-@media screen and (max-width:360px) {
-  /* CSS for screens that are 320 pixels or less will be put in this section */
-	
-	#main {
-			/* font-family:'Libre Baskerville', 'sans-serif', 'Lucida Sans Unicode', 'Bitstream Vera Sans', 'Trebuchet Unicode MS', 'Lucida Grande', Verdana, Helvetica, sans-serif; */
-	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif, 'arial';
-	/* font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif; */
-	/* background-color:#E9E9E9; */
-	/* border: 1px black;*/
-	/* z-index:0px; */
-	/* height: 100%; */ 
-	/* padding: 5px; */
-	/* border:1px solid black; */
-	margin-left: auto;
-	margin-right: auto;
-	background-size: cover;
-
-
-	/* background-color: ffffff;
-	opacity: 0.6;
-	/*filter: alpha(opacity=60);*/
-	padding: 5px; */
-		width: 360px;
-	}
-	
-	#gallery {
-		width: 360px;
-	}
-}
-
-@media screen and (min-width:361px) and (max-width:640px) {
-  /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
-	#main {
-	/* font-family:'Libre Baskerville', 'sans-serif', 'Lucida Sans Unicode', 'Bitstream Vera Sans', 'Trebuchet Unicode MS', 'Lucida Grande', Verdana, Helvetica, sans-serif; */
-	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif, 'arial';
-	/* font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif; */
-	/* background-color:#E9E9E9; */
-	/* border: 1px black;*/
-	/* z-index:0px; */
-	width:870px;
-	/* height: 100%; */ 
-	/* padding: 5px; */
-	/* border:1px solid black; */
-	margin-left: auto;
-	margin-right: auto;
-	background-size: cover;
-
-
-	/* background-color: ffffff;
-	opacity: 0.6;
-	/*filter: alpha(opacity=60);*/
-	padding: 5px; */
-		width: 360px;
-	}
-	
-	#gallery {
-		width: 360px;
-	}
-}
 
 body {
 	background-color:#F9F9F9 /* #E0E0E0; */ /*black;#F8F8F8;*/
@@ -303,4 +244,65 @@ color: gray;
 
 tg-yw4l {
 	border-right:1px black;
+}
+
+
+@media screen and (max-width:360px) {
+  /* CSS for screens that are 320 pixels or less will be put in this section */
+	
+	#main {
+			/* font-family:'Libre Baskerville', 'sans-serif', 'Lucida Sans Unicode', 'Bitstream Vera Sans', 'Trebuchet Unicode MS', 'Lucida Grande', Verdana, Helvetica, sans-serif; */
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif, 'arial';
+	/* font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif; */
+	/* background-color:#E9E9E9; */
+	/* border: 1px black;*/
+	/* z-index:0px; */
+	/* height: 100%; */ 
+	/* padding: 5px; */
+	/* border:1px solid black; */
+	margin-left: auto;
+	margin-right: auto;
+	background-size: cover;
+
+
+	/* background-color: ffffff;
+	opacity: 0.6;
+	/*filter: alpha(opacity=60);*/
+	padding: 5px; */
+		width: 360px;
+	}
+	
+	#gallery {
+		width: 360px;
+	}
+}
+
+@media screen and (min-width:361px) and (max-width:640px) {
+  /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
+	#main {
+	/* font-family:'Libre Baskerville', 'sans-serif', 'Lucida Sans Unicode', 'Bitstream Vera Sans', 'Trebuchet Unicode MS', 'Lucida Grande', Verdana, Helvetica, sans-serif; */
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif, 'arial';
+	/* font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif; */
+	/* background-color:#E9E9E9; */
+	/* border: 1px black;*/
+	/* z-index:0px; */
+	width:870px;
+	/* height: 100%; */ 
+	/* padding: 5px; */
+	/* border:1px solid black; */
+	margin-left: auto;
+	margin-right: auto;
+	background-size: cover;
+
+
+	/* background-color: ffffff;
+	opacity: 0.6;
+	/*filter: alpha(opacity=60);*/
+	padding: 5px; */
+		width: 360px;
+	}
+	
+	#gallery {
+		width: 360px;
+	}
 }
