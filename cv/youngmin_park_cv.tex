@@ -1,0 +1,228 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{xunicode,xltxtra,url,parskip} 	%other packages for formatting
+
+\usepackage[usenames,dvipsnames]{xcolor}
+%\usepackage[big]{layaureo} 				%better formatting of the A4 page
+% an alternative to Layaureo can be ** \usepackage{fullpage} **
+
+\usepackage{titlesec}					%custom \section
+\usepackage{footnote}
+\usepackage{longtable}
+\usepackage[margin=.75in,top=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{colortbl}
+
+\setlist{nosep} % remove space before \itemize
+
+%Setup hyperref package, and colours for links
+\usepackage{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+%FONTS
+\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin}
+%%% modified for Karol Kozioł for ShareLaTeX use
+\setmainfont[
+SmallCapsFont = Fontin-SmallCaps.otf,
+BoldFont = Fontin-Bold.otf,
+ItalicFont = Fontin-Italic.otf
+]
+{Fontin.otf}
+%%%
+
+%CV Sections inspired by: 
+%http://stefano.italians.nl/archives/26
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{10pt}{3pt}
+
+%Tweak a bit the top margin
+\addtolength{\voffset}{-1cm}
+\setlength{\parindent}{0pt}
+
+\newcommand{\updateinfo}[1][\today]{\par\vfill\hfill{\scriptsize\color{gray}Last updated on #1}}
+
+%--------------------BEGIN DOCUMENT----------------------
+\begin{document}
+
+
+
+%WATERMARK TEST [**not part of a CV**]---------------
+%\font\wm=''Baskerville:color=787878'' at 8pt
+%\font\wmweb=''Baskerville:color=FF1493'' at 8pt
+%{\wm 
+%	\begin{textblock}{1}(0,0)
+%		\rotatebox{-90}{\parbox{500mm}{
+%			Typeset by Alessandro Plasmati with \XeTeX\  \today\ for 
+%			{\wmweb \href{http://www.aleplasmati.comuv.com}{aleplasmati.comuv.com}}
+%		}
+%	}
+%	\end{textblock}
+%}
+
+\pagestyle{empty} % non-numbered pages
+
+\font\fb=''[cmr10]'' %for use with \LaTeX command
+
+%--------------------TITLE-------------
+\par{\centering
+		{\Large Youngmin \textsc{Park}
+	}\par}
+
+%--------------------SECTIONS-----------------------------------
+%Section: Personal Data
+
+\begin{center}
+\begin{tabularx}{.8\textwidth}{Xl}
+Department of Mathematics & Tel: (412) 805-0283 \\
+Goldsmith 218 Mailstop 050 & Email: \href{mailto:ypark@brandeis.edu}{ypark@brandeis.edu}\\
+415 South St. Waltham, MA 02453  & Web: \href{https://youngmp.github.io}{youngmp.github.io}\\
+\end{tabularx}
+\end{center}
+
+
+%Section: Education
+\section{Employment}
+\begin{tabular}{p{0.2\linewidth}p{0.7\linewidth}}
+ \textsc{June} 2019 -- \textsc{Present}  & Postdoctoral Fellow \textbf{Brandeis University}\newline
+\small Advisor: Thomas Fai\vspace{8pt}\\
+ \textsc{May} 2018 -- \textsc{May} 2019  & Postdoctoral Fellow \textbf{University of Pennsylvania}\newline
+\small Advisor: Maria N. Geffen
+\end{tabular}
+
+%Section: Education
+\section{Education}
+\begin{tabular}{p{0.2\linewidth}p{0.7\linewidth}}
+\textsc{Aug.} 2013 -- \textsc{Apr.} 2018 & PhD Mathematics, \textbf{University of Pittsburgh}\newline
+Thesis: Dimension Reduction of Neural Models Across Multiple Spatio-temporal Scales | \small Advisor: G. Bard Ermentrout\vspace{8pt}\\
+\textsc{Aug.} 2012 -- \textsc{Aug.} 2013 & MS Applied Math \textbf{Case Western}, Cleveland, OH \newline
+Thesis:  Infinitesimal Phase Response Curves for Piecewise Smooth Dynamical Systems | \small Advisor: Peter J. Thomas\vspace{8pt}\\
+\textsc{Aug.} 2008 -- \textsc{Aug.} 2013& BS Applied Math \textbf{Case Western}, Cleveland, OH\\
+&\\
+\textit{Additional Training}\\
+\textsc{Sep.} 2016 & Max Planck Institute G{\"o}ttingen Advanced Computational Neuroscience \\
+\textsc{Aug.} 2015 & Woods Hole MBL Methods in Computational Neuroscience\\
+\textsc{Jun.} 2010 & Mathematical Biosciences Institute OSU Summer Program
+\end{tabular}
+
+\section{Peer-Reviewed Publications}
+\noindent
+\renewcommand\labelitemi{\tiny$\bullet$}
+\begin{enumerate}[leftmargin=.225in,rightmargin=.1in,itemsep=2pt]
+    \item \textbf{Park, Y.}, Fai, Thomas, G.,``The Dynamics of Vesicles Driven Into Closed Constrictions by Molecular Motors'' (Submitted to Bulletin of Mathematical Biology).
+    \item \textbf{Park, Y.}, Geffen, M.N.,``A Circuit Model of Auditory Cortex.'' PLOS Computational Biology (Accepted, 2020).
+    \item \textbf{Park, Y.}, Ermentrout, G.B. ``A Multiple Timescales Approach to Bridging Spiking- and Population-level Dynamics.'' Chaos. 28.8 (2018).
+    \item \textbf{Park, Y.}, Ermentrout, G.B. ``Scalar Reduction of a Neural Field Model with Spike Frequency Adaptation.'' SIADS 17.1 (2018): 931--981.
+    \item \textbf{Park, Y.}, Shaw, K.M. Chiel, H.J. Thomas, P.J. ``The Infinitesimal Phase Response Curve of Oscillators in Piecewise Smooth Dynamical Systems.'' EJAM (2018).
+    \item \textbf{Park, Y.}, Ermentrout, G.B. ``Weakly Coupled Oscillators in a Slowly Varying World.'' Springer Journal of Computational Neuroscience 40.3 (2016): 269--281.
+    \item Shaw, K.M., \textbf{Park, Y-M.}, Chiel, H.J., Thomas, P.J. ``Phase Resetting in an Asymptotically Phaseless System: On the Phase Response of Limit Cycles Verging on a Heteroclinic Orbit." SIADS 11.1 (2012): 350--91.
+\end{enumerate}
+
+\section{Book Chapters and Review Articles}
+\noindent
+\renewcommand\labelitemi{\tiny$\bullet$}
+\begin{enumerate}[leftmargin=.225in,rightmargin=.1in,itemsep=2pt]
+    \item Ermentrout, G.B.,  \textbf{Park, Y.}, Wilson, D.,``Recent advances in coupled oscillator theory.'' Philosophical Transactions A. 377. (2019).
+    \item \textbf{Park, Y.}, Heitmann, S., Ermentrout, G.B. ``The Utility of Phase Models in Studying Neural Synchronization.'' Book chapter in ``Computational Models of Brain and Behavior''. Wiley-Blackwell (2017): 493--505.
+\end{enumerate}
+
+\section{Presentations}
+\begin{itemize}[leftmargin=.225in,rightmargin=.1in]
+    \item ``Scalar Reduction of a Neural Field Model with Spike Frequency Adaptation''
+    \begin{itemize}
+        \item {\makebox[2cm]{Mar. 2020\hfill} Boston University Dynamics Seminar (Cancelled due to COVID-19)}
+        \item {\makebox[2cm]{Jul. 2019\hfill} Society for Mathematical Biology, University of Montreal}
+        \item {\makebox[2cm]{May 2019\hfill} SIAM Dynamical Systems, Snowbird, Utah}
+        \item {\makebox[2cm]{Mar. 2016/17\hfill} U of Pitt Mathematical Biology Seminar}
+    \end{itemize}
+    \item ``A Multiple Timescales Approach to Bridging Spiking- and Population-level Dynamics''
+    \begin{itemize}
+        \item {\makebox[2cm]{Mar. 2018\hfill} U of Pitt Mathematical Biology Seminar}
+    \end{itemize}
+    \item ``The Dynamics of Vesicles Driven through Closed Constrictions by Molecular Motors''
+    \begin{itemize}
+        \item {\makebox[2cm]{Jun. 2020\hfill} SIAM Life Sciences, Zoom}
+        \item {\makebox[2cm]{Jun. 2020\hfill} Brandeis Mathematical Biology Seminar}
+        \item {\makebox[2cm]{Jan. 2020\hfill} Aspen Center for Physics, Aspen, CO}
+        \item {\makebox[2cm]{Nov. 2019\hfill} APS Fluids, Seattle, WA}
+    \end{itemize}
+    \item ``Weakly Coupled Oscillators in a Slowly Varying World''
+    \begin{itemize}
+         \item {\makebox[2cm]{Sep. 2018\hfill} Computational Neuroscience Initiative Seminar, Philadelphia, PA}
+         \item {\makebox[2cm]{May 2015/17\hfill} SIAM Dynamical Systems, Snowbird, Utah}
+         \item {\makebox[2cm]{Mar. 2015\hfill} U of Pittsburgh Mathematical Biology Seminar}
+    \end{itemize}
+    \item  ``The Infinitesimal Phase Response Curve of Oscillators in Piecewise Smooth Dynamical Systems''
+    \begin{itemize}
+        \item {\makebox[2cm]{Jul. 2017\hfill} SIAM Annual Meeting, Pittsburgh, PA}
+    \end{itemize}
+\end{itemize}
+
+
+
+\section{Honors and Awards}
+\begin{tabular}{p{0.18\linewidth}p{0.75\linewidth}}
+\textsc{Sep. 2017--May 2018} & Andrew Mellon Predoctoral Fellowship\\
+\textsc{2017} & SIAM Student Travel Award\\
+\textsc{2016} & Elizabeth Baranger Teaching Award (nominated)\\
+\textsc{2012} & SPUR (Summer Program for Undergraduate Research)\\
+%\textsc{2010--2012} & Choose Ohio First Scholarship\\
+%\textsc{2009--2012} & Dean's High Honors
+\end{tabular}
+
+\section{Teaching}
+\begin{tabular}{p{0.2\linewidth}p{0.08\linewidth}p{0.4\linewidth}p{.2\linewidth}}
+\textbf{School} & \textbf{Type} & \textbf{Class} & \textbf{Term(s)}\\
+\noalign{\global\arrayrulewidth=.1mm}
+  \arrayrulecolor{gray}\hline
+MBL & Assistant & Methods in Comp. Neuro. (Postponed for 2021 due to COVID-19) \\
+&  & & \\
+\noalign{\global\arrayrulewidth=.1mm}
+  \arrayrulecolor{gray}\hline
+Brandeis  (2020) & {Lecture} & Linear Algebra & Spring 2020 \\
+&  & & \\
+\noalign{\global\arrayrulewidth=.1mm}
+  \arrayrulecolor{gray}\hline
+U of Pitt. (2013--18)  & {Lecture} & Differential Equations (3 sections) & Summers, 2014--2017\\
+& & Linear Algebra & Summer 2015 \\
+& & Discrete Math & Spring 2015 \\
+& Recitation & Computuational Neuroscience & Summers, 2014--2017 \\
+&  & Business Calculus (6 sections) & Fall/Spring 2013/16\\
+&  & Calculus 1, 2, 3 (6 sections) & Fall/Spring 2014--2016\\
+& Grading & Differential Equations (10 sections) & Fall/Spring 2013--2017  \\
+& & Complex Variables and Applications & Spring 2017 \\
+& & Linear Algebra (2 sections) & Spring 2016\\
+&  & & \\
+\noalign{\global\arrayrulewidth=.1mm}
+  \arrayrulecolor{gray}\hline
+Oberlin (2013) & Assistant & Computational Neuroscience  & Winter 2013 
+\end{tabular}
+
+\section{Service}
+\begin{tabular}{p{0.18\linewidth}p{0.8\linewidth}}
+\textsc{Jun. 2019--Jul. 2020} & Organizer for the Brandeis Math Bio Seminar\\
+\textsc{Jul. 2019--Pres.} & Volunteer member of the SMB Neuroscience Subgroup Board of Directors\\
+\textsc{Jul. 2019} & Judge for poster presentations at SMB 2019 Montreal\\
+\textsc{Apr. 2019} & Guest lecturer, Science Outreach, Moder Patshala \& Free Library of Philadelphia.\\
+\textsc{Jul. 2017} & Volunteer kit-stuffing at the SIAM Annual Meeting\\
+\textsc{Mar. 2017} & Volunteer lifeline at the Pitt Integration Bee\\
+%\textsc{2010--2012} & Choose Ohio First Scholarship\\
+%\textsc{2009--2012} & Dean's High Honors
+\end{tabular}
+
+\section{Conferences and Posters}
+\begin{longtable}{p{0.18\linewidth}p{0.8\linewidth}}
+\textsc{Mar.} 2019 & Poster, MINS Symposium Philadelphia, Pennsylvania\\
+\textsc{Sep.} 2018 & Poster, Auditory SPLASH Conference Philadelphia, Pennsylvania\\
+\textsc{May.} 2015 & Poster, SIAM: Dynamical Systems Snowbird, Utah\\
+\textsc{May.} 2011 & Attendance, SIAM: Dynamical Systems, Snowbird, Utah\\
+\textsc{Aug.} 2010 & Oral presentation, Mathematical Association of America MathFest, Pittsburgh, PA\\
+\textsc{Jul.} 2010 & Attendance, SIAM: Life Sciences, Pittsburgh, PA
+\end{longtable}
+
+
+\updateinfo
+
+\end{document}
