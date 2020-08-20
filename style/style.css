@@ -22,9 +22,9 @@ table {
 html {
     padding: 0;
     margin: 0;
-   /*background: url('retina_wood2x.jpg') no-repeat center center fixed; */
-   /*background: url('retina_wood2x.jpg'); */
-   background: url('retina_wood2x.jpg'); 
+   /*background: url('style/retina_wood2x.jpg') no-repeat center center fixed; */
+   /*background: url('style/retina_wood2x.jpg'); */
+   background: url('style/retina_wood2x.jpg'); 
    background-repeat:repeat-y;
    background-attachment:fixed;
   -webkit-background-size: cover;
