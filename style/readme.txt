@@ -1,0 +1,1 @@
+folder for all style files. css, images, javascript related to website function go here.

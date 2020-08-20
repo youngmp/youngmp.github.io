@@ -14,7 +14,7 @@ Youngmin Park
 
 <!-- BEGIN MENU -->
 <div id='cssmenu'>
-<script>$("#cssmenu").load("../menu.htm");</script>
+<script>$("#cssmenu").load("../menu.html");</script>
 </div>
 <!-- END MENU -->
 
