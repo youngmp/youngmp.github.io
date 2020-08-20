@@ -121,7 +121,7 @@ color: gray;
   padding: 0px;
 }
 #cssmenu li a {
-  background: #333333 url('seperator.gif') bottom right no-repeat;
+  background: #333333 url(seperator.gif) bottom right no-repeat;
   display: block;
   font-weight: normal;
   line-height: 50px;
@@ -164,7 +164,7 @@ color: gray;
   display: block;
 }
 #cssmenu li li {
-  background: url('sub_sep.gif') bottom left no-repeat;
+  background: url(sub_sep.gif) bottom left no-repeat;
   display: block;
   float: none;
   margin: 0px;
