@@ -140,7 +140,7 @@ color: gray;
   color: #ddd;
 }
 
-#cssmenu ul ul a:visited {
+#cssmenu a:visited {
   /* color: #cccccc;*/
   color: #FFFFFF;
 }
