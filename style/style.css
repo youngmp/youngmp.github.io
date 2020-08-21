@@ -134,9 +134,15 @@ color: gray;
   /* color: #cccccc; */
   color: #ddd;
 }
+
 #cssmenu ul ul a {
   /* color: #cccccc;*/
   color: #ddd;
+}
+
+#cssmenu ul ul a:visited {
+  /* color: #cccccc;*/
+  color: #FFFFFF;
 }
 #cssmenu li > a:hover,
 
