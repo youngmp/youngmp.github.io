@@ -146,6 +146,12 @@ color: gray;
   /* color: #cccccc;*/
   color: #FFFFFF;
 }
+
+#cssmenu a:link {
+  /* color: #cccccc;*/
+  color: #FFFFFF;
+}
+
 #cssmenu li > a:hover,
 
 #cssmenu ul li:hover > a {
