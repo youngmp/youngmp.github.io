@@ -66,7 +66,7 @@ color: gray;
 	/* background-color:#E9E9E9; */
 	/* border: 1px black;*/
 	/* z-index:0px; */
-	width:85%;
+	width:95%;
 	max-width:900px;
 	/* height: 100%; */ 
 	/* padding: 5px; */
@@ -230,7 +230,7 @@ color: gray;
 #gallery {
 	text-align:center;
 	height: 100%;
-	width: 860px;
+	/*width: 860px;*/
 
 
 }
