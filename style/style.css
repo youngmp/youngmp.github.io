@@ -24,13 +24,8 @@ html {
     margin: 0;
    /*background: url('style/retina_wood2x.jpg') no-repeat center center fixed; */
    /*background: url('style/retina_wood2x.jpg'); */
-   background: url(retina_wood2x.jpg); 
-   background-repeat:repeat-y;
-   background-attachment:fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+   background: url(retina_woodb.jpg); 
+   background-repeat:repeat;
 }
 h2,h3 {
 margin:0px;
