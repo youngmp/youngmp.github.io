@@ -190,7 +190,7 @@ box-shadow: 0px 6px 6px rgba(0,0,0,0.175);
     *display:inline;*zoom:1;
     white-space:normal;
     width:auto;min-width:200px;
-padding:0 30px;
+padding:0 0px;
 border-right:1px solid #333;
 }
 
