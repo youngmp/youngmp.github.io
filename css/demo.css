@@ -43,17 +43,17 @@ a {
 	position: relative;
 }
 
-.main {
+.main2 {
 	padding: 30px 20px 100px 20px;
 	max-width: 1580px;
 	margin: 0 auto;
 }
 
-.main > header {
+.main2 > header {
 	padding: 0 10px 30px;
 }
 
-.main > header h1 {
+.main2 > header h1 {
 	font-size: 34px;
 	line-height: 38px;
 	margin: 0;
@@ -62,13 +62,13 @@ a {
 	float: left;
 }
 
-.main > header h1 span {
+.main2 > header h1 span {
 	display: block;
 	font-size: 20px;
 	font-weight: 300;
 }
 
-.main h2 {
+.main2 h2 {
 	font-size: 38px;
 	font-weight: 300;
 	text-shadow: 0 1px 0 rgba(255,255,255,0.9);
