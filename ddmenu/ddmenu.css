@@ -22,7 +22,7 @@
     display:inline-block;
     list-style:none;
     position:relative;
-    z-index:999999990; 
+    z-index:1000; 
     border-radius:2px;
 padding-top:2px;
 }
