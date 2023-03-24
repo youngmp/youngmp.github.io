@@ -2,7 +2,7 @@ jQuery("#animated-thumbnails-gallery")
   .justifiedGallery({
     captions: false,
     lastRow: "hide",
-    rowHeight: 130,
+    rowHeight: 150,
     margins: 5
   })
   .on("jg.complete", function () {
