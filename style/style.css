@@ -97,15 +97,6 @@ color: gray;
 }
 
 
-
-#gallery {
-	text-align:center;
-	height: 100%;
-	/*width: 860px;*/
-
-
-}
-
 #sectiontitle{
 	background: rgb(255, 255, 255); /* Fall-back for browsers that don'tsupport rgba */
 	background: rgba(255, 255, 255, .7);
