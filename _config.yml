@@ -1,0 +1,7 @@
+title: Youngmin Park
+description: Personal page of Youngmin Park, Ph.D.
+
+# Keep Jekyll from copying stray files into the built site.
+exclude:
+  - README.md
+  - hobbies_old.html
