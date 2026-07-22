@@ -1,5 +1,4 @@
-<nav aria-label="Site">
-{% for item in site.data.nav %}
-  <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
-{% endfor %}
-</nav>
+{% for item in site.data.nav %} {{ item.title }} {% endfor %}
+{{ content }}
+Youngmin Park · University of Florida
+{% if page.scripts %}{% for s in page.scripts %}{% endfor %}{% endif %}
