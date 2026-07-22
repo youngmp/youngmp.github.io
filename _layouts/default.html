@@ -1,4 +1,29 @@
-{% for item in site.data.nav %} {{ item.title }} {% endfor %}
-{{ content }}
-Youngmin Park · University of Florida
-{% if page.scripts %}{% for s in page.scripts %}{% endfor %}{% endif %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="{{ page.description | default: 'Personal page of Youngmin Park, Ph.D.' }}">
+<title>{% if page.title %}{{ page.title }} — Youngmin Park{% else %}Youngmin Park{% endif %}</title>
+<link rel="icon" type="image/png" href="{{ '/style/myfavicon.ico' | relative_url }}">
+<link rel="stylesheet" href="{{ '/style/site.css' | relative_url }}">
+</head>
+<body>
+<div class="wrap{% if page.wide %} wide{% endif %}">
+
+  <nav aria-label="Site">
+  {% for item in site.data.nav %}
+    <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+  {% endfor %}
+  </nav>
+
+  {{ content }}
+
+  <footer>
+    Youngmin Park · University of Florida
+  </footer>
+
+</div>
+{% if page.scripts %}{% for s in page.scripts %}<script src="{{ s | relative_url }}"></script>{% endfor %}{% endif %}
+</body>
+</html>
