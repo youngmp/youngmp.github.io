@@ -3,55 +3,58 @@ layout: default
 title: Art
 description: Art and hobbies of Youngmin Park, Ph.D.
 wide: true
-scripts:
-  - /js/gallery.js
 ---
 <h1 class="page-title">Art</h1>
-<p class="lede">Mostly pencil on paper &mdash; friends, their pets, and the occasional animal or building. Click any piece to enlarge.</p>
+<p class="lede">Mostly pencil on paper &mdash; friends, their pets, and the occasional animal or building. Click any piece to zoom.</p>
+
+<!-- lightGallery styles -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lightgallery-bundle.min.css">
 
 <div class="masonry" id="gallery">
-  <figure><button class="tile" data-full="https://i.postimg.cc/RFWhNHPb/sopris.jpg" data-caption="Mount Sopris, requested by my friend Jeff Andrews, an astronomer. Pencil and fineliner on paper. 2024"><img src="https://i.postimg.cc/R0sqSRTH/sopris-thumbnail.jpg" alt="Mount Sopris" loading="lazy"></button></figure>
-  <figure><button class="tile" data-full="https://i.postimg.cc/MKPHwtKJ/diana.jpg" data-caption="Diana, my friend, a monkey neuroscientist. Pencil on paper. 2024"><img src="https://i.postimg.cc/ry9znMBm/diana-thumbnail.jpg" alt="Diana" loading="lazy"></button></figure>
-  <figure><button class="tile" data-full="https://i.postimg.cc/25Jn5rkm/bambam.jpg" data-caption="Bambam, my friend Kelly's cat. Pencil on paper. 2024"><img src="https://i.postimg.cc/5Nq5Sh3q/bambam-thumbnail.jpg" alt="Bambam" loading="lazy"></button></figure>
-  <figure><button class="tile" data-full="https://i.postimg.cc/v8fp7m61/collage.jpg" data-caption="Don, my friend Lana's late father. Pencil on paper. 2024"><img src="https://i.postimg.cc/1XG2yWZ0/collage-thumbnail.jpg" alt="Don" loading="lazy"></button></figure>
-  <figure><button class="tile" data-full="https://i.postimg.cc/FKYyy7zw/bitsy.jpg" data-caption="Bitsy. Pencil on paper. 2024"><img src="https://i.postimg.cc/x8vyXh8C/bitsy-thumbnail.jpg" alt="Bitsy" loading="lazy"></button></figure>
-  <figure><button class="tile" data-full="https://i.postimg.cc/9XyQ4Cmb/jacob-sam.jpg" data-caption="Sam. Pencil on paper. 2024"><img src="https://i.postimg.cc/7ZK6x9Hy/jacob-sam-thumbnail.jpg" alt="Sam" loading="lazy"></button></figure>
-  <figure><button class="tile" data-full="https://i.postimg.cc/L6BV2Bny/joe_essa.jpg" data-caption="My dear friends Joe and Essa. Pencil on paper. 2024"><img src="https://i.postimg.cc/X70gRD7G/joe-essa-thumbnail.jpg" alt="Joe and Essa" loading="lazy"></button></figure>
-  <figure><button class="tile" data-full="https://i.postimg.cc/GpPWc6cp/margaret_somers.jpg" data-caption="Margaret, a superstar staff member of the UF Mathematics Department who loves country music. Pencil on paper. 2024"><img src="https://i.postimg.cc/X7ZtZrVm/margaret-somers-thumbnail.jpg" alt="Margaret Somers" loading="lazy"></button></figure>
-  <figure><button class="tile" data-full="https://i.postimg.cc/dVKjsxqV/carol-vito.jpg" data-caption="Vito, Carol's dog. Pencil on paper. 2023"><img src="https://i.postimg.cc/C5XBRWG6/carol-vito-thumbnail.jpg" alt="Vito" loading="lazy"></button></figure>
-  <figure><button class="tile" data-full="https://i.postimg.cc/2y8PxmSt/rocky.jpg" data-caption="Rocky, Dana's cat. Missing since Summer 2023. Pencil on paper. 2023"><img src="https://i.postimg.cc/C1YyzbTS/rocky-thumbnail.png" alt="Rocky" loading="lazy"></button></figure>
-  <figure><button class="tile" data-full="https://i.postimg.cc/jjpG9gvZ/kristin.jpg" data-caption="Kristin. Pencil on paper. 2023"><img src="https://i.postimg.cc/kg43ttBF/kristin-thumbnail.jpg" alt="Kristin" loading="lazy"></button></figure>
-  <figure><button class="tile" data-full="https://i.postimg.cc/B62dGTVs/torvi2.jpg" data-caption="Torvi, Kristin's cat. Pencil on paper. 2023"><img src="https://i.postimg.cc/QdyLgx7L/torvi2-thumbnail.jpg" alt="Torvi" loading="lazy"></button></figure>
-  <figure><button class="tile" data-full="https://i.postimg.cc/3N1b7K7K/sundance.jpg" data-caption="Sundance, Sara's cat. Pencil on paper. 2023"><img src="https://i.postimg.cc/fTgBvqRg/sundance-thumbnail.jpg" alt="Sundance" loading="lazy"></button></figure>
-  <figure><button class="tile" data-full="https://i.postimg.cc/Hk646xSR/beans.jpg" data-caption="Beans, Meredith's cat. Pencil on paper. 2023"><img src="https://i.postimg.cc/x1pMKZ8S/beans-thumbnail.jpg" alt="Beans" loading="lazy"></button></figure>
-  <figure><button class="tile" data-full="https://i.postimg.cc/9XT56Vyj/kiki.jpg" data-caption="Kiki, Stephanie's cat. Pencil on paper. 2023"><img src="https://i.postimg.cc/hvVkTbKG/kiki-thumbnail.jpg" alt="Kiki" loading="lazy"></button></figure>
-  <figure><button class="tile" data-full="https://i.postimg.cc/N0ds3W9C/janna.jpg" data-caption="Janna. Pencil on paper. 2022"><img src="https://i.postimg.cc/yNQm1mf1/janna-thumbnail.jpg" alt="Janna" loading="lazy"></button></figure>
-  <figure><button class="tile" data-full="https://i.postimg.cc/vmtgcq15/ankylasurus.jpg" data-caption="Ankylosaurus. Pencil on paper. 2022"><img src="https://i.postimg.cc/3wdyZPBh/ankylasaurus.jpg" alt="Ankylosaurus" loading="lazy"></button></figure>
-  <figure><button class="tile" data-full="https://i.postimg.cc/YqTmVmKL/aussie-sky.jpg" data-caption="Sky, Dan and Sam's aussie. Pencil on paper. 2022"><img src="https://i.postimg.cc/25M192cZ/aussie-sky.jpg" alt="Sky" loading="lazy"></button></figure>
-  <figure><button class="tile" data-full="https://i.postimg.cc/7P066tph/squirrel2.jpg" data-caption="Squirrel. Pencil on paper. 2022"><img src="https://i.postimg.cc/dtYyKNqR/squirrel2-thumbnail.jpg" alt="Squirrel" loading="lazy"></button></figure>
-  <figure><button class="tile" data-full="https://i.postimg.cc/9XR9BBsH/mars.jpg" data-caption="Mars, Vic's cat. Pencil on paper. 2022"><img src="https://i.postimg.cc/fL1YXwn1/mars-thumbnail.jpg" alt="Mars" loading="lazy"></button></figure>
-  <figure><button class="tile" data-full="https://i.postimg.cc/kgnDLNY4/portrait.jpg" data-caption="Self portrait. Pencil on paper. 2022"><img src="https://i.postimg.cc/qvQnwcHs/portrait-thumbnail.jpg" alt="Self portrait" loading="lazy"></button></figure>
-  <figure><button class="tile" data-full="https://i.postimg.cc/d3LLNJ59/bat3.jpg" data-caption="Bat. Pencil on paper. 2021"><img src="https://i.postimg.cc/1Xc4tP9G/bat3.jpg" alt="Bat" loading="lazy"></button></figure>
-  <figure><button class="tile" data-full="https://i.postimg.cc/nh7QtcpR/bat2.jpg" data-caption="Bat. Pencil on paper. 2021"><img src="https://i.postimg.cc/pTjpwz41/bat2.jpg" alt="Bat" loading="lazy"></button></figure>
-  <figure><button class="tile" data-full="https://i.postimg.cc/CKSdTGv5/fennec2.jpg" data-caption="Fennec fox. Pencil on paper. 2021"><img src="https://i.postimg.cc/gcwD07Ff/fennec2-thumbnail.jpg" alt="Fennec fox" loading="lazy"></button></figure>
-  <figure><button class="tile" data-full="https://i.postimg.cc/v8V1nZ6Q/owl2.jpg" data-caption="Barred owl. Pencil on paper. 2021"><img src="https://i.postimg.cc/VsbqwbXw/owl2-thumbnail.jpg" alt="Barred owl" loading="lazy"></button></figure>
-  <figure><button class="tile" data-full="https://i.postimg.cc/Y05qXYGp/hummingbird.jpg" data-caption="Hummingbird. Pencil on paper. 2021"><img src="https://i.postimg.cc/RZT185Kn/hummingbird-thumbnail.jpg" alt="Hummingbird" loading="lazy"></button></figure>
-  <figure><button class="tile" data-full="https://i.postimg.cc/44SK7h32/conure1.jpg" data-caption="Conure. Pencil on paper. 2021. This sketch marks a return to drawing after a 3-year hiatus thanks to encouragements from my kind friend Sarah."><img src="https://i.postimg.cc/bv3G0qb3/conure1.jpg" alt="Conure" loading="lazy"></button></figure>
-  <figure><button class="tile" data-full="https://i.postimg.cc/YSCGLNQV/palma2.png" data-caption="Palma de Mallorca. Digital. 2018"><img src="https://i.postimg.cc/rwqx5n3y/palma2-thumbnail.png" alt="Palma de Mallorca" loading="lazy"></button></figure>
-  <figure><button class="tile" data-full="https://i.postimg.cc/pTndKsr0/pot2.jpg" data-caption="Bowl. Porcelain. Gifted to Abby. 2017"><img src="https://i.postimg.cc/QMy7GXtV/pot2-thumbnail.jpg" alt="Porcelain bowl" loading="lazy"></button></figure>
-  <figure><button class="tile" data-full="https://i.postimg.cc/NFMHh6jm/berlin.png" data-caption="An old train station in Berlin. Digital. 2017"><img src="https://i.postimg.cc/nVvXTKvX/berlin.png" alt="Old train station in Berlin" loading="lazy"></button></figure>
-  <figure><button class="tile" data-full="https://i.postimg.cc/3rSGXctB/cat2.png" data-caption="Cat practice sketch. Digital. 2017"><img src="https://i.postimg.cc/3rSGXctB/cat2.png" alt="Cat practice sketch" loading="lazy"></button></figure>
-  <figure><button class="tile" data-full="https://i.postimg.cc/NjpLtyZx/pot1.jpg" data-caption="Cup. Porcelain. 2017"><img src="https://i.postimg.cc/Bv6FV8Jd/pot1-thumbnail.jpg" alt="Porcelain cup" loading="lazy"></button></figure>
-  <figure><button class="tile" data-full="https://i.postimg.cc/ZqQR9GbB/pot3.jpg" data-caption="Vase. Porcelain. Gifted to Mary. 2016"><img src="https://i.postimg.cc/Tw5DTZL0/pot3-thumbnail.jpg" alt="Porcelain vase" loading="lazy"></button></figure>
+  <a class="tile" data-src="https://i.postimg.cc/RFWhNHPb/sopris.jpg" data-sub-html="Mount Sopris, requested by my friend Jeff Andrews, an astronomer. Pencil and fineliner on paper. 2024"><img src="https://i.postimg.cc/R0sqSRTH/sopris-thumbnail.jpg" alt="Mount Sopris" loading="lazy"></a>
+  <a class="tile" data-src="https://i.postimg.cc/MKPHwtKJ/diana.jpg" data-sub-html="Diana, my friend, a monkey neuroscientist. Pencil on paper. 2024"><img src="https://i.postimg.cc/ry9znMBm/diana-thumbnail.jpg" alt="Diana" loading="lazy"></a>
+  <a class="tile" data-src="https://i.postimg.cc/25Jn5rkm/bambam.jpg" data-sub-html="Bambam, my friend Kelly's cat. Pencil on paper. 2024"><img src="https://i.postimg.cc/5Nq5Sh3q/bambam-thumbnail.jpg" alt="Bambam" loading="lazy"></a>
+  <a class="tile" data-src="https://i.postimg.cc/v8fp7m61/collage.jpg" data-sub-html="Don, my friend Lana's late father. Pencil on paper. 2024"><img src="https://i.postimg.cc/1XG2yWZ0/collage-thumbnail.jpg" alt="Don" loading="lazy"></a>
+  <a class="tile" data-src="https://i.postimg.cc/FKYyy7zw/bitsy.jpg" data-sub-html="Bitsy. Pencil on paper. 2024"><img src="https://i.postimg.cc/x8vyXh8C/bitsy-thumbnail.jpg" alt="Bitsy" loading="lazy"></a>
+  <a class="tile" data-src="https://i.postimg.cc/9XyQ4Cmb/jacob-sam.jpg" data-sub-html="Sam. Pencil on paper. 2024"><img src="https://i.postimg.cc/7ZK6x9Hy/jacob-sam-thumbnail.jpg" alt="Sam" loading="lazy"></a>
+  <a class="tile" data-src="https://i.postimg.cc/L6BV2Bny/joe_essa.jpg" data-sub-html="My dear friends Joe and Essa. Pencil on paper. 2024"><img src="https://i.postimg.cc/X70gRD7G/joe-essa-thumbnail.jpg" alt="Joe and Essa" loading="lazy"></a>
+  <a class="tile" data-src="https://i.postimg.cc/GpPWc6cp/margaret_somers.jpg" data-sub-html="Margaret, a superstar staff member of the UF Mathematics Department who loves country music. Pencil on paper. 2024"><img src="https://i.postimg.cc/X7ZtZrVm/margaret-somers-thumbnail.jpg" alt="Margaret Somers" loading="lazy"></a>
+  <a class="tile" data-src="https://i.postimg.cc/dVKjsxqV/carol-vito.jpg" data-sub-html="Vito, Carol's dog. Pencil on paper. 2023"><img src="https://i.postimg.cc/C5XBRWG6/carol-vito-thumbnail.jpg" alt="Vito" loading="lazy"></a>
+  <a class="tile" data-src="https://i.postimg.cc/2y8PxmSt/rocky.jpg" data-sub-html="Rocky, Dana's cat. Missing since Summer 2023. Pencil on paper. 2023"><img src="https://i.postimg.cc/C1YyzbTS/rocky-thumbnail.png" alt="Rocky" loading="lazy"></a>
+  <a class="tile" data-src="https://i.postimg.cc/jjpG9gvZ/kristin.jpg" data-sub-html="Kristin. Pencil on paper. 2023"><img src="https://i.postimg.cc/kg43ttBF/kristin-thumbnail.jpg" alt="Kristin" loading="lazy"></a>
+  <a class="tile" data-src="https://i.postimg.cc/B62dGTVs/torvi2.jpg" data-sub-html="Torvi, Kristin's cat. Pencil on paper. 2023"><img src="https://i.postimg.cc/QdyLgx7L/torvi2-thumbnail.jpg" alt="Torvi" loading="lazy"></a>
+  <a class="tile" data-src="https://i.postimg.cc/3N1b7K7K/sundance.jpg" data-sub-html="Sundance, Sara's cat. Pencil on paper. 2023"><img src="https://i.postimg.cc/fTgBvqRg/sundance-thumbnail.jpg" alt="Sundance" loading="lazy"></a>
+  <a class="tile" data-src="https://i.postimg.cc/Hk646xSR/beans.jpg" data-sub-html="Beans, Meredith's cat. Pencil on paper. 2023"><img src="https://i.postimg.cc/x1pMKZ8S/beans-thumbnail.jpg" alt="Beans" loading="lazy"></a>
+  <a class="tile" data-src="https://i.postimg.cc/9XT56Vyj/kiki.jpg" data-sub-html="Kiki, Stephanie's cat. Pencil on paper. 2023"><img src="https://i.postimg.cc/hvVkTbKG/kiki-thumbnail.jpg" alt="Kiki" loading="lazy"></a>
+  <a class="tile" data-src="https://i.postimg.cc/N0ds3W9C/janna.jpg" data-sub-html="Janna. Pencil on paper. 2022"><img src="https://i.postimg.cc/yNQm1mf1/janna-thumbnail.jpg" alt="Janna" loading="lazy"></a>
+  <a class="tile" data-src="https://i.postimg.cc/vmtgcq15/ankylasurus.jpg" data-sub-html="Ankylosaurus. Pencil on paper. 2022"><img src="https://i.postimg.cc/3wdyZPBh/ankylasaurus.jpg" alt="Ankylosaurus" loading="lazy"></a>
+  <a class="tile" data-src="https://i.postimg.cc/YqTmVmKL/aussie-sky.jpg" data-sub-html="Sky, Dan and Sam's aussie. Pencil on paper. 2022"><img src="https://i.postimg.cc/25M192cZ/aussie-sky.jpg" alt="Sky" loading="lazy"></a>
+  <a class="tile" data-src="https://i.postimg.cc/7P066tph/squirrel2.jpg" data-sub-html="Squirrel. Pencil on paper. 2022"><img src="https://i.postimg.cc/dtYyKNqR/squirrel2-thumbnail.jpg" alt="Squirrel" loading="lazy"></a>
+  <a class="tile" data-src="https://i.postimg.cc/9XR9BBsH/mars.jpg" data-sub-html="Mars, Vic's cat. Pencil on paper. 2022"><img src="https://i.postimg.cc/fL1YXwn1/mars-thumbnail.jpg" alt="Mars" loading="lazy"></a>
+  <a class="tile" data-src="https://i.postimg.cc/kgnDLNY4/portrait.jpg" data-sub-html="Self portrait. Pencil on paper. 2022"><img src="https://i.postimg.cc/qvQnwcHs/portrait-thumbnail.jpg" alt="Self portrait" loading="lazy"></a>
+  <a class="tile" data-src="https://i.postimg.cc/d3LLNJ59/bat3.jpg" data-sub-html="Bat. Pencil on paper. 2021"><img src="https://i.postimg.cc/1Xc4tP9G/bat3.jpg" alt="Bat" loading="lazy"></a>
+  <a class="tile" data-src="https://i.postimg.cc/nh7QtcpR/bat2.jpg" data-sub-html="Bat. Pencil on paper. 2021"><img src="https://i.postimg.cc/pTjpwz41/bat2.jpg" alt="Bat" loading="lazy"></a>
+  <a class="tile" data-src="https://i.postimg.cc/CKSdTGv5/fennec2.jpg" data-sub-html="Fennec fox. Pencil on paper. 2021"><img src="https://i.postimg.cc/gcwD07Ff/fennec2-thumbnail.jpg" alt="Fennec fox" loading="lazy"></a>
+  <a class="tile" data-src="https://i.postimg.cc/v8V1nZ6Q/owl2.jpg" data-sub-html="Barred owl. Pencil on paper. 2021"><img src="https://i.postimg.cc/VsbqwbXw/owl2-thumbnail.jpg" alt="Barred owl" loading="lazy"></a>
+  <a class="tile" data-src="https://i.postimg.cc/Y05qXYGp/hummingbird.jpg" data-sub-html="Hummingbird. Pencil on paper. 2021"><img src="https://i.postimg.cc/RZT185Kn/hummingbird-thumbnail.jpg" alt="Hummingbird" loading="lazy"></a>
+  <a class="tile" data-src="https://i.postimg.cc/44SK7h32/conure1.jpg" data-sub-html="Conure. Pencil on paper. 2021. This sketch marks a return to drawing after a 3-year hiatus thanks to encouragements from my kind friend Sarah."><img src="https://i.postimg.cc/bv3G0qb3/conure1.jpg" alt="Conure" loading="lazy"></a>
+  <a class="tile" data-src="https://i.postimg.cc/YSCGLNQV/palma2.png" data-sub-html="Palma de Mallorca. Digital. 2018"><img src="https://i.postimg.cc/rwqx5n3y/palma2-thumbnail.png" alt="Palma de Mallorca" loading="lazy"></a>
+  <a class="tile" data-src="https://i.postimg.cc/pTndKsr0/pot2.jpg" data-sub-html="Bowl. Porcelain. Gifted to Abby. 2017"><img src="https://i.postimg.cc/QMy7GXtV/pot2-thumbnail.jpg" alt="Porcelain bowl" loading="lazy"></a>
+  <a class="tile" data-src="https://i.postimg.cc/NFMHh6jm/berlin.png" data-sub-html="An old train station in Berlin. Digital. 2017"><img src="https://i.postimg.cc/nVvXTKvX/berlin.png" alt="Old train station in Berlin" loading="lazy"></a>
+  <a class="tile" data-src="https://i.postimg.cc/3rSGXctB/cat2.png" data-sub-html="Cat practice sketch. Digital. 2017"><img src="https://i.postimg.cc/3rSGXctB/cat2.png" alt="Cat practice sketch" loading="lazy"></a>
+  <a class="tile" data-src="https://i.postimg.cc/NjpLtyZx/pot1.jpg" data-sub-html="Cup. Porcelain. 2017"><img src="https://i.postimg.cc/Bv6FV8Jd/pot1-thumbnail.jpg" alt="Porcelain cup" loading="lazy"></a>
+  <a class="tile" data-src="https://i.postimg.cc/ZqQR9GbB/pot3.jpg" data-sub-html="Vase. Porcelain. Gifted to Mary. 2016"><img src="https://i.postimg.cc/Tw5DTZL0/pot3-thumbnail.jpg" alt="Porcelain vase" loading="lazy"></a>
 </div>
 
-<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Artwork viewer">
-  <span class="lb-count" aria-hidden="true"></span>
-  <button class="lb-btn lb-close" aria-label="Close">&times;</button>
-  <button class="lb-btn lb-prev" aria-label="Previous">&#8249;</button>
-  <button class="lb-btn lb-next" aria-label="Next">&#8250;</button>
-  <figure>
-    <img src="" alt="">
-    <figcaption></figcaption>
-  </figure>
-</div>
+<!-- lightGallery scripts + init -->
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/lightgallery.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/zoom/lg-zoom.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/thumbnail/lg-thumbnail.umd.min.js"></script>
+<script>
+  lightGallery(document.getElementById('gallery'), {
+    plugins: [lgZoom, lgThumbnail],
+    speed: 400,
+    download: false,
+    licenseKey: '0000-0000-000-0000'
+  });
+</script>
