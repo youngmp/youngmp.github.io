@@ -1,10 +1,8 @@
 - title: Home
   url: /index.html
-- title: Research
+- title: Research/CV
   url: /research.html
 - title: Teaching
   url: /teaching.html
 - title: Art
   url: /art.html
-- title: CV
-  url: https://docs-yp.s3.us-east-1.amazonaws.com/park_cv.pdf
