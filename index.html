@@ -3,7 +3,6 @@ layout: default
 title: Home
 description: Home page of Youngmin Park, Ph.D.
 ---
-
 <!-- ===== Floating table of contents — paste anywhere in a page's content ===== -->
 <style>
   /* ---------- shared ---------- */
@@ -128,6 +127,7 @@ description: Home page of Youngmin Park, Ph.D.
 
 <script>
 (function () {
+function initTOC() {
   var toc      = document.getElementById('floating-toc');
   var fab      = document.getElementById('toc-fab');
   var backdrop = document.getElementById('toc-backdrop');
@@ -204,12 +204,22 @@ description: Home page of Youngmin Park, Ph.D.
   function spy() {
     var pos = window.scrollY + 80, current = 0;
     for (var i = 0; i < heads.length; i++) {
-      if (heads[i].offsetTop <= pos) { current = i; } else { break; }
+      var top = heads[i].getBoundingClientRect().top + window.scrollY;
+      if (top <= pos) { current = i; } else { break; }
     }
     links.forEach(function (a, i) { a.classList.toggle('is-active', i === current); });
   }
   spy();
   window.addEventListener('scroll', spy, { passive: true });
+}
+
+// The snippet may sit above the page's headings, so wait until the whole
+// document is parsed before looking for them.
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initTOC);
+} else {
+  initTOC();
+}
 })();
 </script>
 <!-- ===== end floating table of contents ===== -->
