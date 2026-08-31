@@ -134,13 +134,6 @@ section {
 ul { padding-left: 1.1rem; margin: 0.5rem 0 1.25rem; }
 li { margin-bottom: 0.35rem; }
 
-.bio img {
-  float: left;
-  width: min(38%, 220px);
-  height: auto;
-  border-radius: 3px;
-  margin: 0.3rem 1.25rem 0.5rem 0;
-}
 
 /* ---- Interests: two-column definition cards (research) ---- */
 .interests {
